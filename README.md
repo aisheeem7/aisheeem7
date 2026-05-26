@@ -32,8 +32,14 @@ B.Tech Computer Science and Engineering student at Amity University Kolkata with
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### AI / ML
+![Python](https://img.shields.io/badge/Python%20(AI%2FML)-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=orange)
 ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-000000?style=for-the-badge&logo=openai&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
+![Data Visualization](https://img.shields.io/badge/Data%20Visualization-FF6F61?style=for-the-badge&logo=plotly&logoColor=white)
+![Data Management](https://img.shields.io/badge/Data%20Management-0064a5?style=for-the-badge&logo=databricks&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 ### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
