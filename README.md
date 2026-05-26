@@ -2,7 +2,7 @@
 
 ### Aspiring Software Engineer | GSSoC’26 Contributor | AI/ML Enthusiast | Full Stack Web Developer
 
-Passionate about building impactful projects, exploring AI-powered solutions, contributing to open source, and creating visually immersive web experiences.
+B.Tech Computer Science and Engineering student at Amity University Kolkata with a strong interest in Machine Learning, Artificial Intelligence, Web Development, and Open Source. Passionate about building practical real-world projects, exploring new technologies, and contributing through collaborative development experiences. A quick learner and team player, always eager to grow.
 
 ---
 
