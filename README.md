@@ -8,7 +8,7 @@ Passionate about building impactful projects, exploring AI-powered solutions, co
 
 ## 🌐 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](www.linkedin.com/in/aisheem)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/aisheem/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/aisheeem7)
 
 ---
@@ -16,11 +16,9 @@ Passionate about building impactful projects, exploring AI-powered solutions, co
 ## 💫 About Me
 
 * 🎓 Third Year Computer Science & Engineering Student
-* 💻 Exploring Full Stack Web Development and AI/ML
-* 🌱 Currently learning advanced frontend development and open-source collaboration
+* 💻 Love exploring AI/ML and Full Stack Web Development 
 * 🚀 GSSoC’26 Open Source Contributor
-* 🎨 Interested in creative UI/UX and immersive web experiences
-* ⚡ Love building projects that combine tech + creativity
+* ⚡ Love turning unique ideas into interactive and visually engaging web experiences
 
 ---
 
@@ -28,7 +26,7 @@ Passionate about building impactful projects, exploring AI-powered solutions, co
 
 ### Languages
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python%20(AI%2FML)-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python%20-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
