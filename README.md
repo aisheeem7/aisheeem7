@@ -15,7 +15,7 @@ B.Tech Computer Science and Engineering student at Amity University Kolkata with
 
 ## 💫 About Me
 
-* 🎓 Third Year Computer Science & Engineering Student
+* 🎓 Final Year Computer Science & Engineering Student
 * 💻 Love exploring AI/ML and Full Stack Web Development 
 * 🚀 GSSoC’26 Open Source Contributor
 * ⚡ Love turning unique ideas into interactive and visually engaging web experiences
