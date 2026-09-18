@@ -10,8 +10,6 @@ I build practical web applications, explore **Artificial Intelligence & Machine 
 
 Currently learning, building, and contributing to real-world projects while preparing for the next step in my software engineering journey.
 
-> **Live to learn. Learn to live.**
-
 ---
 
 ## Tech Stack
@@ -51,12 +49,15 @@ Contributing to collaborative projects and improving my development workflow thr
 
 ---
 
-## GitHub
+## GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aisheeem7&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aisheeem7&layout=compact&hide_border=true&theme=transparent" height="165"/>
-</p>
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=aisheeem7&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true&count_private=true" height="170"/> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aisheeem7&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="170"/> </p>
+
+<p align="center"> <img src="https://streak-stats.demolab.com/?user=aisheeem7&theme=transparent&hide_border=true" width="495"/> </p>
+
+<p align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=aisheeem7&theme=github-compact&hide_border=true&area=true" width="95%"/> </p>
+
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=aisheeem7&style=flat-square&color=grey" alt="Profile Views"/> </p>
 
 ---
 
@@ -67,5 +68,5 @@ Contributing to collaborative projects and improving my development workflow thr
 ---
 
 <p align="center">
-  <i>live to learn. learn to live.</i>
+  <i>Live to learn. Learn to live.</i>
 </p>
