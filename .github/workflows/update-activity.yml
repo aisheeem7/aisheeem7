@@ -1,6 +1,5 @@
-# Place this file at: .github/workflows/update-activity.yml
-# in your profile repo (aisheeem7/aisheeem7).
-# Job 1 fills the "Recent Activity" section of the README.
+# Lives at: .github/workflows/update-activity.yml in aisheeem7/aisheeem7
+# Job 1 fills the "Recent Activity" section of the README with your latest public GitHub events.
 # Job 2 draws your contribution graph into the "output" branch, which the README displays.
 
 name: Update profile
@@ -17,13 +16,106 @@ jobs:
   update-activity:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: jamesgeorge007/github-activity-readme@master
+      - uses: actions/checkout@v5
+
+      - name: Fetch recent public events
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "chore: update recent activity"
-          MAX_LINES: 5
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: gh api "users/$OWNER/events/public?per_page=100" > "$RUNNER_TEMP/events.json"
+
+      - name: Write Recent Activity section
+        env:
+          OWNER: ${{ github.repository_owner }}
+          EVENTS: ${{ runner.temp }}/events.json
+          MAX_LINES: "5"
+        run: |
+          python3 - <<'PY'
+          import json, os, re
+
+          owner = os.environ["OWNER"]
+          profile_repo = f"{owner}/{owner}"
+          events = json.load(open(os.environ["EVENTS"]))
+          max_lines = int(os.environ["MAX_LINES"])
+
+          def link(repo):
+              return f"[{repo}](https://github.com/{repo})"
+
+          def describe(e):
+              t, repo, p = e["type"], e["repo"]["name"], e.get("payload") or {}
+              if repo == profile_repo:
+                  return None
+              if t == "PushEvent":
+                  n = p.get("size") or p.get("distinct_size") or len(p.get("commits") or [])
+                  if n:
+                      return f"Pushed {n} commit{'s' if n != 1 else ''} to {link(repo)}"
+                  return f"Pushed to {link(repo)}"
+              if t == "CreateEvent":
+                  kind = p.get("ref_type")
+                  if kind == "repository":
+                      return f"Created repository {link(repo)}"
+                  if kind in ("branch", "tag") and p.get("ref"):
+                      return f"Created {kind} `{p['ref']}` in {link(repo)}"
+                  return None
+              if t == "PullRequestEvent":
+                  pr = p.get("pull_request") or {}
+                  num, url = pr.get("number") or p.get("number"), pr.get("html_url", f"https://github.com/{repo}/pulls")
+                  action = p.get("action")
+                  if action == "closed" and pr.get("merged"):
+                      action = "merged"
+                  if action in ("opened", "merged", "closed", "reopened"):
+                      return f"{action.capitalize()} PR [#{num}]({url}) in {link(repo)}"
+                  return None
+              if t == "IssuesEvent":
+                  issue = p.get("issue") or {}
+                  if p.get("action") in ("opened", "closed", "reopened"):
+                      return f"{p['action'].capitalize()} issue [#{issue.get('number')}]({issue.get('html_url')}) in {link(repo)}"
+                  return None
+              if t == "IssueCommentEvent":
+                  issue = p.get("issue") or {}
+                  return f"Commented on [#{issue.get('number')}]({issue.get('html_url')}) in {link(repo)}"
+              if t == "PullRequestReviewEvent":
+                  pr = p.get("pull_request") or {}
+                  return f"Reviewed PR [#{pr.get('number')}]({pr.get('html_url')}) in {link(repo)}"
+              if t == "WatchEvent":
+                  return f"Starred {link(repo)}"
+              if t == "ForkEvent":
+                  return f"Forked {link(repo)}"
+              if t == "ReleaseEvent":
+                  rel = p.get("release") or {}
+                  return f"Published release [{rel.get('tag_name')}]({rel.get('html_url')}) in {link(repo)}"
+              return None
+
+          lines = []
+          for e in events:
+              d = describe(e)
+              if d and d not in lines:
+                  lines.append(d)
+              if len(lines) >= max_lines:
+                  break
+
+          body = "\n".join(f"{i}. {l}" for i, l in enumerate(lines, 1)) or "_No recent public activity yet._"
+
+          readme = open("README.md", encoding="utf-8").read()
+          pattern = r"(<!--START_SECTION:activity-->)[\s\S]*?(<!--END_SECTION:activity-->)"
+          if not re.search(pattern, readme):
+              raise SystemExit("README.md is missing the START_SECTION/END_SECTION activity markers")
+          new = re.sub(pattern, lambda m: f"{m.group(1)}\n{body}\n{m.group(2)}", readme)
+          open("README.md", "w", encoding="utf-8").write(new)
+          print(body)
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update recent activity"
+            git push
+          fi
 
   contribution-graph:
     runs-on: ubuntu-latest
