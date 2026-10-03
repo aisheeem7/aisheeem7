@@ -4,7 +4,7 @@
 <div align="center">
 
 <a href="https://github.com/aisheeem7">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7F5AF0&center=true&vCenter=true&width=640&lines=Building+practical+web+apps+%F0%9F%9B%A0%EF%B8%8F;Exploring+AI+%26+Machine+Learning+%F0%9F%A4%96;MERN+Stack+Developer+%F0%9F%8C%90;Open+Source+Contributor+%40+GSSoC%2726+%F0%9F%8C%B1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=7F5AF0&center=true&vCenter=true&width=640&lines=Building+practical+web+apps;Exploring+AI+%26+Machine+Learning;MERN+Stack+Developer;Open+Source+Contributor+%40+GSSoC%2726" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -17,7 +17,7 @@
 
 ---
 
-## 👩‍💻 About Me
+## About Me
 
 I build practical web applications, explore **Artificial Intelligence & Machine Learning**, and enjoy turning ideas into clean, interactive digital experiences.
 Currently learning, building, and contributing to real-world projects while preparing for the next step in my software engineering journey.
@@ -34,7 +34,7 @@ const aishee = {
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table>
   <tr>
@@ -72,9 +72,9 @@ const aishee = {
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🧠 FocusGuard AI
+### FocusGuard AI
 <table>
   <tr>
     <td width="45%">
@@ -87,10 +87,10 @@ const aishee = {
       <br/><br/>
       Tracks desktop apps and browser tabs, classifies each as <i>productive</i>, <i>distracting</i> or <i>neutral</i>, and turns it into a dashboard that helps you stay focused.
       <br/><br/>
-      ✦ 3-stage classification: curated lists → title keywords → AI fallback<br/>
-      ✦ Focus Mode timers, streaks, 15 badges &amp; group leaderboards<br/>
-      ✦ Weekly AI-written insights (Gemini / Claude)<br/>
-      ✦ Chrome extension + Windows tracker · 5 languages · 59 tests
+      • 3-stage classification: curated lists → title keywords → AI fallback<br/>
+      • Focus Mode timers, streaks, 15 badges &amp; group leaderboards<br/>
+      • Weekly AI-written insights (Gemini / Claude)<br/>
+      • Chrome extension + Windows tracker · 5 languages · 59 tests
       <br/><br/>
       <a href="https://focusguard-ai-y4tt.onrender.com"><img src="https://img.shields.io/badge/Live%20Demo-7F5AF0?style=for-the-badge&logo=render&logoColor=white" alt="Live Demo" /></a>
       <a href="https://github.com/aisheeem7/focusguard-ai"><img src="https://img.shields.io/badge/Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source" /></a>
@@ -110,7 +110,7 @@ const aishee = {
 
 ---
 
-### 🎓 TRISETU — AI Scholarship Verification for Scheduled Tribes
+### TRISETU — AI Scholarship Verification for Scheduled Tribes
 <table>
   <tr>
     <td width="45%">
@@ -123,10 +123,10 @@ const aishee = {
       <br/><br/>
       A verification workflow for Ministry of Tribal Affairs scholarship &amp; fellowship schemes. It reads documents, applies scheme rules, explains every decision, and sends only the cases that need an officer to one.
       <br/><br/>
-      ✦ OCR + GPT-4o structured extraction with quoted evidence<br/>
-      ✦ Deterministic eligibility rules from config — AI never decides<br/>
-      ✦ Cross-document consistency checks &amp; transparent risk score<br/>
-      ✦ Human-in-the-loop review · English / Hindi / Bengali · 75 tests
+      • OCR + GPT-4o structured extraction with quoted evidence<br/>
+      • Deterministic eligibility rules from config — AI never decides<br/>
+      • Cross-document consistency checks &amp; transparent risk score<br/>
+      • Human-in-the-loop review · English / Hindi / Bengali · 75 tests
       <br/><br/>
       <a href="https://github.com/aisheeem7/mota-scholarship"><img src="https://img.shields.io/badge/Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source" /></a>
       <img src="https://img.shields.io/badge/SIH-2026-FF9933?style=for-the-badge" alt="SIH" />
@@ -145,7 +145,7 @@ const aishee = {
 
 ---
 
-### 🍱 My Meal Prep
+### My Meal Prep
 <table>
   <tr>
     <td width="45%">
@@ -158,10 +158,10 @@ const aishee = {
       <br/><br/>
       A cookbook-inspired app to create, discover, save and schedule meals in one place.
       <br/><br/>
-      ✦ Create, browse, rate &amp; review recipes<br/>
-      ✦ Personal collections of saved favourites<br/>
-      ✦ Weekly planner with an interactive calendar<br/>
-      ✦ Search &amp; filter by category and meal type · fully responsive
+      • Create, browse, rate &amp; review recipes<br/>
+      • Personal collections of saved favourites<br/>
+      • Weekly planner with an interactive calendar<br/>
+      • Search &amp; filter by category and meal type · fully responsive
       <br/><br/>
       <a href="https://my-meal-prep-kohl.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-7F5AF0?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
       <a href="https://github.com/aisheeem7/my-meal-prep"><img src="https://img.shields.io/badge/Source-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source" /></a>
@@ -180,7 +180,7 @@ const aishee = {
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -193,44 +193,43 @@ const aishee = {
 
 <br/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=aisheeem7&theme=tokyo-night&hide_border=true&area=true&color=7F5AF0&line=2CB67D&point=ffffff" alt="Contribution graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aisheeem7/aisheeem7/output/contribution-graph-dark.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/aisheeem7/aisheeem7/output/contribution-graph.svg" alt="Contribution graph" />
+</picture>
 
 <br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=aisheeem7&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="Trophies" />
+<img src="https://github-trophies.vercel.app/?username=aisheeem7&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="Trophies" />
 
 </div>
 
 ---
 
-## ⚡ Recent Activity
+## Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [FocusGuard v1.1: reliable desktop app tracking](https://github.com/aisheeem7/focusguard-ai/releases/tag/v1.1) in [aisheeem7/focusguard-ai](https://github.com/aisheeem7/focusguard-ai)
-2. 🚀 Published release [FocusGuard AI v1.0](https://github.com/aisheeem7/focusguard-ai/releases/tag/v1.0) in [aisheeem7/focusguard-ai](https://github.com/aisheeem7/focusguard-ai)
-3. 🎉 Merged PR [#14](https://github.com/aisheeem7/mota-scholarship/pull/14) in [aisheeem7/mota-scholarship](https://github.com/aisheeem7/mota-scholarship)
-4. 💪 Opened PR [#14](https://github.com/aisheeem7/mota-scholarship/pull/14) in [aisheeem7/mota-scholarship](https://github.com/aisheeem7/mota-scholarship)
 <!--END_SECTION:activity-->
 
 ---
 
-## 🌱 What I'm Into
+## Interests
 
 | | |
 |---|---|
-| 🤖 **AI / ML** | Exploring machine learning concepts and building practical AI-powered applications |
-| 🌐 **Full Stack** | Building responsive, interactive applications with the MERN stack |
-| 🤝 **Open Source** | Contributing to collaborative projects and sharpening my workflow through GSSoC'26 |
+| **AI / ML** | Exploring machine learning concepts and building practical AI-powered applications |
+| **Full Stack** | Building responsive, interactive applications with the MERN stack |
+| **Open Source** | Contributing to collaborative projects and sharpening my workflow through GSSoC'26 |
 
 ---
 
-## 📫 Connect With Me
+## Connect With Me
 
 <div align="center">
 
 <a href="https://github.com/aisheeem7"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<!-- Add your links and remove the comment markers:
-<a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="https://www.linkedin.com/in/aisheem/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<!-- To add email, replace YOUR-EMAIL and remove the comment markers:
 <a href="mailto:YOUR-EMAIL"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 -->
 
