@@ -209,7 +209,8 @@ const aishee = {
 ## Recent Activity
 
 <!--START_SECTION:activity-->
-1. Pushed to [aisheeem7/focusguard-ai](https://github.com/aisheeem7/focusguard-ai)
+1. Pushed to [aisheeem7/eventra](https://github.com/aisheeem7/eventra)
+2. Pushed to [aisheeem7/focusguard-ai](https://github.com/aisheeem7/focusguard-ai)
 <!--END_SECTION:activity-->
 
 ---
